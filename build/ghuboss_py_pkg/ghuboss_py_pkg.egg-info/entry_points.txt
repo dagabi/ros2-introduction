@@ -1,0 +1,4 @@
+[console_scripts]
+my_sample_node = ghuboss_py_pkg.my_test_node:main
+number_publisher = ghuboss_py_pkg.number_publisher_node:main
+

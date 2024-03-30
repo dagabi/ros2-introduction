@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ghuboss_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ghuboss_py_pkg.egg-info/dependency_links.txt
+writing entry points to ghuboss_py_pkg.egg-info/entry_points.txt
+writing requirements to ghuboss_py_pkg.egg-info/requires.txt
+writing top-level names to ghuboss_py_pkg.egg-info/top_level.txt
+reading manifest file 'ghuboss_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'ghuboss_py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss-py-pkg.egg-link (link to .)
+Installing my_sample_node script to /home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/ghuboss_py_pkg
+
+Installed /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg
+running symlink_data

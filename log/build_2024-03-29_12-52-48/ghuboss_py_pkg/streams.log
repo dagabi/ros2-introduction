@@ -1,0 +1,22 @@
+[0.250s] Invoking command in '/home/rosdev/ros2_ws/build/ghuboss_py_pkg': PYTHONPATH=/home/rosdev/ros2_ws/build/ghuboss_py_pkg/prefix_override:/home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/ghuboss_py_pkg/build --no-deps symlink_data --force
+[0.361s] running develop
+[0.361s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.361s]   warnings.warn(
+[0.399s] running egg_info
+[0.399s] writing ghuboss_py_pkg.egg-info/PKG-INFO
+[0.399s] writing dependency_links to ghuboss_py_pkg.egg-info/dependency_links.txt
+[0.399s] writing entry points to ghuboss_py_pkg.egg-info/entry_points.txt
+[0.400s] writing requirements to ghuboss_py_pkg.egg-info/requires.txt
+[0.400s] writing top-level names to ghuboss_py_pkg.egg-info/top_level.txt
+[0.400s] reading manifest file 'ghuboss_py_pkg.egg-info/SOURCES.txt'
+[0.401s] writing manifest file 'ghuboss_py_pkg.egg-info/SOURCES.txt'
+[0.401s] running build_ext
+[0.401s] Creating /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss-py-pkg.egg-link (link to .)
+[0.402s] Installing my_sample_node script to /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/ghuboss_py_pkg
+[0.402s] Installing number_publisher script to /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/ghuboss_py_pkg
+[0.402s] 
+[0.402s] Installed /home/rosdev/ros2_ws/build/ghuboss_py_pkg
+[0.402s] running symlink_data
+[0.402s] symbolically linking /home/rosdev/ros2_ws/build/ghuboss_py_pkg/resource/ghuboss_py_pkg -> /home/rosdev/ros2_ws/install/ghuboss_py_pkg/share/ament_index/resource_index/packages
+[0.402s] symbolically linking /home/rosdev/ros2_ws/build/ghuboss_py_pkg/package.xml -> /home/rosdev/ros2_ws/install/ghuboss_py_pkg/share/ghuboss_py_pkg
+[0.416s] Invoked command in '/home/rosdev/ros2_ws/build/ghuboss_py_pkg' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/ghuboss_py_pkg/prefix_override:/home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/ghuboss_py_pkg/build --no-deps symlink_data --force

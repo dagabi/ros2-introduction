@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/PKG-INFO
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/SOURCES.txt
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/dependency_links.txt
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/entry_points.txt
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/requires.txt
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/top_level.txt
+../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/zip-safe
+ghuboss_py_pkg/__init__.py
+ghuboss_py_pkg/my_test_node.py
+ghuboss_py_pkg/number_publisher_node.py
+resource/ghuboss_py_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

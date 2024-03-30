@@ -1,0 +1,28 @@
+running develop
+Removing /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss-py-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/top_level.txt
+reading manifest file '../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ghuboss_py_pkg/my_test_node.py -> /home/rosdev/ros2_ws/build/ghuboss_py_pkg/build/lib/ghuboss_py_pkg
+running install
+running install_lib
+creating /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg
+copying /home/rosdev/ros2_ws/build/ghuboss_py_pkg/build/lib/ghuboss_py_pkg/__init__.py -> /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg
+copying /home/rosdev/ros2_ws/build/ghuboss_py_pkg/build/lib/ghuboss_py_pkg/my_test_node.py -> /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg
+byte-compiling /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg/my_test_node.py to my_test_node.cpython-310.pyc
+running install_data
+copying resource/ghuboss_py_pkg -> /home/rosdev/ros2_ws/install/ghuboss_py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/rosdev/ros2_ws/install/ghuboss_py_pkg/share/ghuboss_py_pkg
+running install_egg_info
+Copying ../../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info to /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_sample_node script to /home/rosdev/ros2_ws/install/ghuboss_py_pkg/lib/ghuboss_py_pkg
+writing list of installed files to '/home/rosdev/ros2_ws/build/ghuboss_py_pkg/install.log'

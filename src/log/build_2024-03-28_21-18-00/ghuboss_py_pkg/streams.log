@@ -1,0 +1,24 @@
+[0.258s] Invoking command in '/home/rosdev/ros2_ws/src/ghuboss_py_pkg': PYTHONPATH=/home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/prefix_override:/home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ghuboss_py_pkg build --build-base /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/build install --record /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/install.log --single-version-externally-managed install_data
+[0.352s] running egg_info
+[0.353s] writing ../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/PKG-INFO
+[0.353s] writing dependency_links to ../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/dependency_links.txt
+[0.353s] writing entry points to ../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/entry_points.txt
+[0.353s] writing requirements to ../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/requires.txt
+[0.353s] writing top-level names to ../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/top_level.txt
+[0.354s] reading manifest file '../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/SOURCES.txt'
+[0.354s] writing manifest file '../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info/SOURCES.txt'
+[0.354s] running build
+[0.354s] running build_py
+[0.354s] copying ghuboss_py_pkg/my_test_node.py -> /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/build/lib/ghuboss_py_pkg
+[0.354s] running install
+[0.354s] running install_lib
+[0.355s] copying /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/build/lib/ghuboss_py_pkg/my_test_node.py -> /home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg
+[0.355s] byte-compiling /home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg/my_test_node.py to my_test_node.cpython-310.pyc
+[0.355s] running install_data
+[0.355s] running install_egg_info
+[0.356s] removing '/home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.356s] Copying ../build/ghuboss_py_pkg/ghuboss_py_pkg.egg-info to /home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages/ghuboss_py_pkg-0.0.0-py3.10.egg-info
+[0.357s] running install_scripts
+[0.368s] Installing my_sample_node script to /home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/ghuboss_py_pkg
+[0.368s] writing list of installed files to '/home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/install.log'
+[0.380s] Invoked command in '/home/rosdev/ros2_ws/src/ghuboss_py_pkg' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/prefix_override:/home/rosdev/ros2_ws/src/install/ghuboss_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ghuboss_py_pkg build --build-base /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/build install --record /home/rosdev/ros2_ws/src/build/ghuboss_py_pkg/install.log --single-version-externally-managed install_data
