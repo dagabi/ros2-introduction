@@ -7,7 +7,7 @@ import random
 class NumberPublisherNode(Node):
     def __init__(self):
         super().__init__('number_publisher_node')
-        self._publisher = super().create_publisher(Int64, "number_topic", 10)
+        self._publisher = super().create_publisher(Int64, "number", 10)
 
         super().create_timer(1, self.publish_timer)
 
