@@ -14,6 +14,7 @@ RUN apt update -q \
     ros-dev-tools \
     ros-humble-rviz2 \
     ros-humble-gazebo-ros-pkgs \
+    ros-humble-gazebo-ros2-control \
     ros-humble-xacro \
     ros-humble-joint-state-publisher-gui \
     && apt clean \
