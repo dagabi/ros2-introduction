@@ -39,13 +39,13 @@ def generate_launch_description():
     start_gazebo_server = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(gazebo_ros_dir, "launch", "gzserver.launch.py")
-        )
+        ) , launch_arguments={"verbose": "true"}
     )
 
     start_gazebo_client = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(gazebo_ros_dir, "launch", "gzclient.launch.py")
-        )
+        )  #, launch_arguments={"verbose": "true"}
     )
 
     spawn_robot = Node(package="gazebo_ros", executable="spawn_entity.py",
