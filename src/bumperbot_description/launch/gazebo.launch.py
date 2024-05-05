@@ -22,6 +22,8 @@ def generate_launch_description():
                                       description="Absolute path to robot urdf file"
     )
 
+    useSim_arg = DeclareLaunchArgument(name="use_sim_time", default_value="false", description='Use simulation time')
+
     model_path = os.path.join(bumperbot_description, "models")
     model_path += pathsep + os.path.join(bumperbot_description_prefix, "share")
 
@@ -29,11 +31,11 @@ def generate_launch_description():
 
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
                                        value_type=str)
-
+    
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
-        parameters=[{"robot_description": robot_description}]
+        parameters=[{"robot_description": robot_description}, {"use_sim_time": LaunchConfiguration("use_sim_time")}]
     )
 
     start_gazebo_server = IncludeLaunchDescription(
@@ -57,6 +59,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         env_var,
+        useSim_arg,
         model_arg,
         start_gazebo_server,
         start_gazebo_client,
