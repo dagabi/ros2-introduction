@@ -39,10 +39,9 @@
     "NVIDIA_VISIBLE_DEVICES": "0"
   },
   "runArgs": [
-    // "--privileged",
+    "--privileged",
     "--network=host",
     "--runtime=nvidia",
-    "--device",
-    "/dev/input/js0:/dev/input/js0"
+    "--device=/dev/input/js0:/dev/input/js0"
   ]
 }

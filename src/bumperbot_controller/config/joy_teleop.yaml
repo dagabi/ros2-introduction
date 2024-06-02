@@ -1,5 +1,6 @@
 joy_teleop:
   ros__parameters:
+    use_sim_time: true
     move:
       type: topic
       interface_type: geometry_msgs/msg/TwistStamped
